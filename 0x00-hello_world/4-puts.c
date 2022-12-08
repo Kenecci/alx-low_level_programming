@@ -14,7 +14,7 @@
 int main(void)
 
 /**
- *  *main - Entry point
+ *  *main - Starting point for program execution
  *
  *  *Return: Always 0 (success)
  *
