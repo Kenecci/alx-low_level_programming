@@ -14,7 +14,9 @@ int main(void)
 
 	while (n <= '9') /*print 0-9*/
 	{
-	putchar(n);									n++;										}
+	putchar(n);
+
+	n++;										}
 	while (a_to_f <= 'f') /*print a-f to finish hexbase*/
 	{
 	putchar(a_to_f);
