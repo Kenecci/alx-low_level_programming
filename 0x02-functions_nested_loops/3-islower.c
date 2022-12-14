@@ -5,13 +5,12 @@
  *
  *  @c: character to check
  *
- *    * Return: 1 if lowercase, 0 if uppercase
+ *  * Return: 1 if lowercase, 0 if uppercase
  */
 
 int _islower(int c)
 {
-	if (c >= 'a')
-	while (c <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
@@ -21,4 +20,3 @@ int _islower(int c)
 	}
 	_putchar('\n');
 }
-
