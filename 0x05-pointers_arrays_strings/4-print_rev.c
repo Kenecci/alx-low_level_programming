@@ -24,7 +24,7 @@ void print_rev(char *s)
 	/* print string reversed */
 	for (i = len; i > 0; i--)
 	{
-		_putchar(*s);
+		putchar(*s);
 		s--;
 	}
 
