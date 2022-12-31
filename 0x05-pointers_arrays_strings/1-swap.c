@@ -5,9 +5,10 @@
  * @a: This is the first entry
  * @b: This is the second entry
  *
+ *
  */
 
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 	int changed;
 
